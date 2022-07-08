@@ -1,15 +1,14 @@
-no = int(input("Enter:"))
-def num_in_words(no):
-    if (no == 1):
+n = int(input("Enter:"))
+def num_in_words(n):
+    if (n == 1):
         print("One")
-    elif (no == 2):
+    elif (n == 2):
         print("Two")
-    elif (no == 3):
+    elif (n == 3):
         print("Three")
     else:
         print("Give input of numbers from 1 to 3")
 
 
-num_in_words(no)
+num_in_words(n)
 
-#num_in_words(4.5)
